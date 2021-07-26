@@ -1,4 +1,4 @@
-name: ci
+name: Docker build and push
 
 on:
   push:
@@ -31,6 +31,6 @@ jobs:
         with:
           push: true
           context: .
-          file: ./python-helloworld/Dockerfile
+          file: ./exercises/python-helloworld/Dockerfile
           tags: user/app:latest
 
