@@ -8,7 +8,7 @@ COPY . /app
 # Set working directory
 WORKDIR /app
 # Install dependencies
-RUN pip install -r requirements.txt
+RUN pip install -r ./exercises/python-helloworld/requirements.txt
 
 # Run app
 CMD ["python3", "app.py"]
