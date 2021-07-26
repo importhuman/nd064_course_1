@@ -33,7 +33,6 @@ jobs:
         with:
           context: .
           file: exercises/python-helloworld/Dockerfile
-          platforms: linux/amd64
           push: true
           tags: importhuman/python-helloworld:latest
 
